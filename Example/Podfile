@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'Plugin_Example' do
+  pod 'Plugin', :path => '../'
+
+  target 'Plugin_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
